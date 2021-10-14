@@ -8,3 +8,4 @@ mongonow.egg-info
 .memo
 setup.cfg
 setup.py
+__pycache*
