@@ -1,3 +1,10 @@
 .idea
-.env
 .pytest*
+build
+dist
+mongonow.egg-info
+/mongonow.egg-info/
+.env
+.memo
+setup.cfg
+setup.py
