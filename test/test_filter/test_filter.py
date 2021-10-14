@@ -1,7 +1,7 @@
 import json
 import os
 
-from mongonow.filter.filter import Filter
+from mongonow.filter_parser import FilterParser
 
 
 class TestFilter:
@@ -17,4 +17,4 @@ class TestFilter:
                 }}
             ]
         }
-        print(Filter.from_collection(coll, query))
+        print(FilterParser.from_collection(coll, query))

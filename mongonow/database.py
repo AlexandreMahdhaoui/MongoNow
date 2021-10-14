@@ -1,5 +1,5 @@
-from collection import Collection
-from utils.path import get_json_filenames
+from mongonow.collection import Collection
+from mongonow.path import get_json_filenames
 
 
 class Database(dict):

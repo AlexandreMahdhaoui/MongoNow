@@ -1,6 +1,6 @@
 from typing import Any
 
-from mongonow.utils.type_checker import TypeChecker
+from mongonow.type_checker import TypeChecker
 
 
 class QueryTokenizer(TypeChecker):
