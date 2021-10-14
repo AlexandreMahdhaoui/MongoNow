@@ -1,8 +1,8 @@
 import copy
 from typing import Optional, Any
 
-from mongonow.filter.query_parser import QueryParser
-from mongonow.filter.query_tokenizer import QueryTokenizer
+from query_parser import QueryParser
+from query_tokenizer import QueryTokenizer
 
 
 class Filter(QueryParser, QueryTokenizer):

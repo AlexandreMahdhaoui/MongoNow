@@ -1,5 +1,5 @@
-from mongonow.filter.filter import Filter
-from mongonow.utils.json_manager import JsonManager
+from filter.filter import Filter
+from utils.json_manager import JsonManager
 
 
 class Collection(list):

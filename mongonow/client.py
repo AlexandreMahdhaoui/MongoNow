@@ -1,7 +1,7 @@
 from typing import Union
 
-from mongonow.database import Database
-from mongonow.utils.path import get_last_dir
+from database import Database
+from utils.path import get_last_dir
 
 
 class MongoNowClient(dict):
