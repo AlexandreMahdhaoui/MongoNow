@@ -70,8 +70,7 @@ cheese_collection.update_many(
 
 The structure of the local database should be conform to the MongoNow's
 file structure Specification.
-- The Database Container  named whatever you want (e.g. `dbs/`) 
-containing all databases.
+- The Database Container (e.g. `dbs/`) containing all databases.
 The path of this folder has to be specified during MongoNowClient
 instanciation: ``client = MongoNowClient(path='/dbs')``
 - Database folders (e.g. `test_db/`) containing all its collection.
