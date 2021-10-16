@@ -20,7 +20,7 @@ $ git clone https://github.com/AlexandreMahdhaoui/MongoNow.git
 
 # Usage:
 
-- Create a MongoNowClient instance and start 
+- Create a MongoNowClient instance and start exploring its content:
 ```python
 from mongonow import MongoNowClient
 
@@ -86,7 +86,7 @@ Navigate to this database with ``db = client['test_db']``.
     │   └── ...
     └── test_db/
         ├── users.json
-        │   └──
+        │   └── ...
         └── cheese.json
             └── {
                   "cheese": [
