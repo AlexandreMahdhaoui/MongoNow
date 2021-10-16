@@ -86,20 +86,21 @@ Navigate to this database with ``db = client['test_db']``.
     │   └── ...
     └── test_db/
         ├── cheese.json
-        │   ├── {
-        │   │    "cheese": [
-        │   │        {
-        │   │            "_id": 5590198231212309,
-        │   │            "name": "Camembert",
-        │   │            "price": 2.99,
-        │   │           "country": "France"
-        │   │        },
-        │   │        {
-        │   │            "_id": 5512398091283234,
-        │   │           "name": "Maroilles",
-        │   │           "price": 4.49,
-        │   │           "country": "France"
-        │   │       }
-        │   │    ]
+        │   └── {
+        │         "cheese": [
+        │           {
+        │             "_id": 5590198231212309,
+        │             "name": "Camembert",
+        │             "price": 2.99,
+        │             "country": "France"
+        │           },
+        │           {
+        │             "_id": 5512398091283234,
+        │             "name": "Maroilles",
+        │             "price": 4.49,
+        │             "country": "France"
+        │           }
+        │         ]
+        │       }
         └── users.json
 ```
